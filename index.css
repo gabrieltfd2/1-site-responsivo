@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+} 
+
+header ul li a {
+list-style: none;
+color: white;
+text-decoration: none;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 1em;  
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(228, 9, 9);
+    padding: 1em;
+}
+
+header h1 {
+    color: white;
+}
+
+section .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .conteiner {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #182C61;
+}
+
+section p {
+    margin-bottom: 8px;
+    color: #182C61;
+}
+
+.store {
+    margin-right: 32px;
+    height: 320px;
+}
+
+#sobreH2 {
+    color: rgb(203, 2, 2);
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5em;
+}
+
+section p {
+    color: rgb(172, 0, 0);
+}
+
+
+
+#h2Destaque {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5em;
+    color:  rgb(203, 2, 2);
+}
+
+.chuteiras {
+   display: flex;
+}
+
+.chuteiras img {
+    margin-right: 1em;
+}
+
+.chuteiras p {
+    color: black;
+    margin-top: 1em;
+   
+}
+
+button {
+    padding: 6px;
+    width: 90%;
+    background-color: rgb(72, 72, 242);
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 0.5em;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2em;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        margin-top: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 0.5em 0;
+    }
+
+    .chuteiras article {
+        max-width: 100%; 
+    }
+    .chuteiras {
+        display: block;
+    }
+    .div-lorem {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:641px)and (max-width:899px) {
+    .container {
+        display: block;
+        font-size: 1em;
+        max-width: 100%;
+        padding: 2em;
+        font-size: 1em;
+    }
+
+    header nav li {
+        display: flex;
+        margin-right: 1em;
+    }
+
+    header {
+        background-color: rgb(228, 9, 9);
+        padding: 1em;
+    }
+
+.chuteiras  {
+    display: block; 
+}
+.div-lorem {
+    max-width: 100%;
+}
+
+}
+
+@media screen and (min-width:1023px) {
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    } 
+    
+    header ul li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    }
+    
+    header nav li {
+        display: inline;
+        margin-right: 1em;  
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(228, 9, 9);
+        padding: 1em;
+    }
+    
+    header h1 {
+        color: white;
+    }
+    
+    section .conteiner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    section .conteiner {
+        align-items: flex-start;
+    }
+    
+    section {
+        padding: 24px 0;
+    }
+    
+    section h2 {
+        margin-bottom: 16px;
+        color: #182C61;
+    }
+    
+    section p {
+        margin-bottom: 8px;
+        color: #182C61;
+    }
+    
+    .store {
+        margin-right: 32px;
+        height: 320px;
+    }
+    
+    #sobreH2 {
+        color: rgb(203, 2, 2);
+        border-bottom: 2px solid black;
+        padding-bottom: 0.5em;
+    }
+    
+    section p {
+        color: rgb(172, 0, 0);
+    }
+    
+    
+    
+    #h2Destaque {
+        border-bottom: 2px solid black;
+        padding-bottom: 0.5em;
+        color:  rgb(203, 2, 2);
+    }
+    
+    .chuteiras {
+       display: flex;
+    }
+    
+    .chuteiras img {
+        margin-right: 1em;
+    }
+    
+    .chuteiras p {
+        color: black;
+        margin-top: 1em;
+       
+    }
+    
+    button {
+        padding: 6px;
+        width: 90%;
+        background-color: rgb(72, 72, 242);
+        color: white;
+        cursor: pointer;
+        border: none;
+        margin-top: 0.5em;
+    }    
+}
+
+@media screen and (min-width:900px)and (max-width:1022px) {
+    .container {
+        display: flex;
+        font-size: 1em;
+        max-width: 100%;
+        padding: 2em;
+    }
+
+    header nav li {
+        display: flex;
+        margin-right: 1em;
+    }
+
+    header {
+        background-color: rgb(228, 9, 9);
+        padding: 1em;
+    }
+
+.chuteiras  {
+    max-width: 100%; 
+}
+.div-lorem {
+    max-width: 100%;
+}
+}
